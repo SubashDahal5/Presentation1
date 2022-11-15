@@ -1,0 +1,151 @@
+.product-details
+{
+    padding: 60px 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.product-img
+{
+    width: 50%;
+}
+.product-img img
+{
+    width: 90%;
+}
+
+.details
+{
+    width: 50%;
+}
+
+details .product-name
+{
+    font-size: 30px;
+}
+
+.product-desc
+{
+   font-size: 20px;
+   line-height: 30px;
+   height: auto;
+   margin: 15px 0 px; 
+   color: rgb(75, 71, 71);
+}
+
+.rating .checked
+{
+  margin-top: 10px;
+  color: rgb(218, 21, 21);
+  font-size: 25px;
+}
+
+.buy-button
+{
+    margin-top: 10px;
+   background: rgb(14, 13, 13);
+   color: white;
+   padding: 7px 10px;
+   border: 2px solid;
+   border-radius: 5px;
+   border-color: black;
+}
+
+.buy-button:hover
+{
+  color: red;
+}
+
+.product-info
+{
+    margin: 50px;
+    color: rgb(75, 71, 71);
+    font-size: 20px;
+}
+
+.product-info p
+{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin: 20px 20px;
+    text-align: justify;
+}
+.container
+{
+    
+    margin-left: 12.5%;
+    height: 810px;
+}
+
+.column
+{
+    
+    float: left;
+    width: 22.5%;
+    height: 360px;
+    padding-left: 7px;
+    margin: 1px;
+    transition: transform 0.5s;
+  
+}
+
+.Image
+{
+  border: 2px solid rgb(92, 85, 85);
+  border-radius: 3px;
+  
+}
+
+.discount-tag
+{
+  width: 55px;
+  position: relative;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #746262;
+  left: 5px;
+  top: 33px;
+}
+
+.rating .checked
+{
+  color: rgb(218, 21, 21);
+}
+
+.buy-button
+{
+  background: rgb(14, 13, 13);
+  color: white;
+  padding: 7px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.buy-button:hover
+{
+  color: red;
+}
+
+.column:hover
+{
+  transform: translateY(-5px);
+
+}
+
+h3
+{
+  color: rgb(53, 48, 48);
+  font-weight: normal;
+}
+
+.title
+{
+
+    margin-left: 10px;
+    position: relative;
+    line-height: 50px;
+    color: #555;  
+}
+

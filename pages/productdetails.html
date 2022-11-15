@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product-detail</title>
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/productdetails.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/footer.css">
+
+        <script>
+            function myfuncntion() {
+                alert("Do you want to buy this book !!");
+            }
+        </script>
+
+        <style>
+            body
+            {
+                background-color: #ccc;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <!--div for navigation bar-->
+        <div class="navbar">
+
+            <!--div for providing logo-->
+                 <div class="logo">
+                     <img src="../Images/logo.png" alt="logo">
+                </div>
+                <ul class="nav-list">
+                    <li> <a href="../index.html"> Home</a> </li>
+                    <li> <a href="../pages/products.html"> Products</a> </li>
+                    <li> <a href="../pages/blog.html"> Blog</a> </li>
+                    <li> <a href="../pages/research.html"> Research</a> </li>
+                    <li> <a href="../pages/contactus.html"> Contact Us</a> </li>
+
+                </ul>
+        </div>
+
+        <!--product details section-->
+        <section class="product-details">
+            <div class="product-img">
+                <img src="../Images/book-details.jpg" alt="product">
+            </div>
+
+            <div class="details">
+                <h2 class="product-name">Zero To One</h2>
+                <p class="product-desc">- Notes on Startups, or How to Build the Future Hardcover – Illustrated, September 16, 2014 by Peter Thiel (Author), Blake Masters (Author)</p>
+                <div class="rating">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star" ></i>
+                    <p>$33.00</p>
+                    <del>$35.00</del>
+                    <p class="product-desc">11,795 ratings</p>
+                </div>
+                <button class="buy-button" onclick="myfuncntion()">Buy Now</button>
+            </div>
+        </section>
+
+        <!--product information section-->
+        <section class="product-info">
+            <h2 class="heading">Book Information</h2>
+            <p>Every moment in business happens only once. <br>
+
+                The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won’t make a search engine. And the next Mark Zuckerberg won't create a social network. If you are copying these guys, you aren't learning from them.
+                
+                It's easier to copy a model than to make something new: doing what we already know how to do takes the world from 1 to n, adding more of something familiar. But every time we create something new, we go from 0 to 1. The act of creation is singular, as is the moment of creation, and the result is something fresh and strange.<br>
+                
+                Progress comes from monopoly, not competition.
+                
+                If you do what has never been done and you can do it better than anybody else, you have a monopoly - and every business is successful exactly insofar as it is a monopoly. But the more you compete, the more you become similar to everyone else. From the tournament of formal schooling to the corporate obsession with outdoing rivals, competition destroys profits for individuals, companies, and society as a whole.
+                
+                Zero to One is about how to build companies that create new things. It draws on everything Peter Thiel has learned directly as a co-founder of PayPal and Palantir and then an investor in hundreds of startups, including Facebook and SpaceX. The single most powerful pattern Thiel has noticed is that successful people find value in unexpected places, and they do this by thinking about business from first principles instead of formulas. Ask not, what would Mark do? Ask: What valuable company is nobody building?</p>
+        </section>
+
+        <!--similar product section-->
+        <section class="similar-products">
+            <!--providing row and column in container-->
+            <div class="container">
+                <h2 class="title">| Similar Products |</h2>
+    
+                <div class="row">
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/pproduct1.jpg" alt="Product">
+                            <h3>Harry Potter</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$29.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/pproduct2.jpg" alt="Product">
+                            <h3>Death Note</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$22.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/pproduct3.jpg" alt="Product">
+                            <h3>The Witcher</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$26.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/pproduct4.jpg" alt="Product">
+                            <h3>The Persuit Of Happiness</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$18.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/pproduct5.jpg" alt="Product">
+                            <h3>Redemption At Hacksaw Ridge</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$29.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/Product1.jpg" alt="Product">
+                            <h3>Game Of Thrones</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$32.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/Product2.jpg" alt="Product">
+                            <h3>Viking The Green Land</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$21.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="discount-tag">
+                            <span>20% off</span>
+                        </div>
+                            <img class="Image" src="../Images/Product3.jpg" alt="Product">
+                            <h3>The Lord Of The Rings</h3>
+                        <div class="rating">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <p>$25.00</p>
+                            <a href="../pages/productdetails.html"> <button class="buy-button">Buy Now</button> </a>
+                        </div>
+                    </div>
+        </section>
+
+        <!--footer-->
+        <div class="footer">
+
+            <ul class="link">
+                <li style="color: white; font-weight: bold; font-size: 20px; padding-top: 20px;">Links</li>
+                <li> <a href="../index.html"> Home</a> </li>
+                <li> <a href="../pages/products.html"> Products</a> </li>
+                <li> <a href="../pages/blog.html"> Blog</a> </li>
+                <li> <a href="../pages/research.html"> Research</a> </li>
+                <li> <a href="../pages/contactus.html"> Contact Us</a> </li>
+
+            </ul>
+
+            <!--sub-footer-->
+            <div class="sub-footer">
+                <p>Copyright ©2022 All rights reserved | Book Read ||Book Store|</p>
+            </div>
+        </div>
+    </body>
+</html>

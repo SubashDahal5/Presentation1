@@ -1,0 +1,79 @@
+.container
+{
+    
+    margin-left: 12.5%;
+    height: 1200px;
+}
+
+.column
+{
+    
+    float: left;
+    width: 22.5%;
+    height: 350px;
+    padding-left: 7px;
+    margin: 1px;
+    transition: transform 0.5s;
+  
+}
+
+.Image
+{
+  border: 2px solid rgb(92, 85, 85);
+  border-radius: 3px;
+  
+}
+
+.discount-tag
+{
+  width: 55px;
+  position: relative;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #746262;
+  left: 5px;
+  top: 33px;
+}
+
+.rating .checked
+{
+  color: rgba(236, 94, 11, 0.993);
+}
+
+.buy-button
+{
+  background: rgb(238, 245, 239);
+  color: rgb(7, 4, 4);
+  padding: 7px 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.buy-button:hover
+{
+  color: rgb(254, 254, 254);
+  background-color: rgb(25, 139, 25);
+}
+
+.column:hover
+{
+  transform: translateY(-5px);
+
+}
+
+h3
+{
+  color: rgb(82, 78, 78);
+  font-weight: normal;
+}
+
+.title
+{
+
+    margin-left: 10px;
+    position: relative;
+    line-height: 50px;
+    color: #555;  
+}

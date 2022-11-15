@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.footer
+{
+    width: 100%;
+    background-color: rgb(78, 83, 82);
+    height: 225px;
+}
+
+.link
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link li
+{
+    list-style: none;
+    padding: 5px 15px;
+}
+
+.link li a
+{
+    text-decoration: none;
+    color: #bebbb8;
+}
+
+.link li a:hover
+{
+    color: white;
+}
+
+.sub-footer
+{
+    background-color: rgb(103, 143, 143);
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 5px;    
+}

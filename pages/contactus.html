@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/contactus.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <script src="../Javascript/contactus.js"></script>
+        <style>
+            body{
+                background-color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <!--div for navigation bar-->
+        <div class="navbar">
+
+            <!--div for providing logo-->
+                 <div class="logo">
+                     <img src="../Images/logo.png" alt="logo">
+                </div>
+                <ul class="nav-list">
+                    <li> <a href="../index.html"> Home</a> </li>
+                    <li> <a href="../pages/products.html"> Products</a> </li>
+                    <li> <a href="../pages/blog.html"> Blog</a> </li>
+                    <li> <a href="../pages/research.html"> Research</a> </li>
+                    <li> <a href="../pages/contactus.html"> Contact Us</a> </li>
+
+                </ul>
+        </div>
+
+        <!--div for creating form-->
+        <div class="form-container">
+
+            <!--funcation can be called when the form is submitted-->
+            <form name="myForm" onsubmit="validateForm()">
+
+                <!--creating table-->
+                <table>
+                        <label>First Name: </label>
+                        <input type="text" name="fname" placeholder="First Name..">
+                        
+            
+                        <label>Last Name: </label>
+                        <input type="text" name="lname" placeholder="Last Name..">
+                        <br>
+                        <br>
+
+                        <label>Email: </label>
+                        <input type="text" name="email" placeholder="Your email..">
+            
+                        <label>Gender: </label>
+                        <input type="radio" name="genderDetails" value="male" checked>Male
+                        <input type="radio" name="genderDetails" value="female">Female
+                        <br>
+                        <br>
+            
+                        <label>Message:</label>
+                        <br>
+                        <textarea rows="10" cols="15" name="message" placeholder="Enter your message...."></textarea>
+                        <br>
+                        <br>
+            
+                        <button type="submit" value="Submit">Submit</button>
+                </table>
+            </form>
+
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+
+            <ul class="link">
+                <li style="color: white; font-weight: bold; font-size: 20px; padding-top: 20px;">Links</li>
+                <li> <a href="../index.html"> Home</a> </li>
+                <li> <a href="../pages/products.html"> Products</a> </li>
+                <li> <a href="../pages/blog.html"> Blog</a> </li>
+                <li> <a href="../pages/research.html"> Research</a> </li>
+                <li> <a href="../pages/contactus.html"> Contact Us</a> </li>
+
+            </ul>
+
+            <!--sub footer-->
+            <div class="sub-footer">
+                <p>Copyright ©2022 All rights reserved | Book Read ||Book Store|</p>
+            </div>
+        </div>
+
+    </body>
+</html>
